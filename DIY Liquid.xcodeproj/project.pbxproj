@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9495C5922C45771300D74494 /* DIY_LiquidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495C5912C45771300D74494 /* DIY_LiquidApp.swift */; };
+		9495C5942C45771300D74494 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495C5932C45771300D74494 /* Persistence.swift */; };
+		9495C5972C45771300D74494 /* DIY_Liquid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9495C5952C45771300D74494 /* DIY_Liquid.xcdatamodeld */; };
+		9495C5992C45771300D74494 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495C5982C45771300D74494 /* ContentView.swift */; };
+		9495C59B2C45771500D74494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9495C59A2C45771500D74494 /* Assets.xcassets */; };
+		9495C59F2C45771500D74494 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9495C59E2C45771500D74494 /* Preview Assets.xcassets */; };
+		9495C5A92C45771500D74494 /* DIY_LiquidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495C5A82C45771500D74494 /* DIY_LiquidTests.swift */; };
+		9495C5B32C45771500D74494 /* DIY_LiquidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495C5B22C45771500D74494 /* DIY_LiquidUITests.swift */; };
+		9495C5B52C45771500D74494 /* DIY_LiquidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9495C5B42C45771500D74494 /* DIY_LiquidUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9495C5A52C45771500D74494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9495C5862C45771300D74494 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9495C58D2C45771300D74494;
+			remoteInfo = "DIY Liquid";
+		};
+		9495C5AF2C45771500D74494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9495C5862C45771300D74494 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9495C58D2C45771300D74494;
+			remoteInfo = "DIY Liquid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9495C58E2C45771300D74494 /* DIY Liquid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DIY Liquid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9495C5912C45771300D74494 /* DIY_LiquidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIY_LiquidApp.swift; sourceTree = "<group>"; };
+		9495C5932C45771300D74494 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9495C5962C45771300D74494 /* DIY_Liquid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DIY_Liquid.xcdatamodel; sourceTree = "<group>"; };
+		9495C5982C45771300D74494 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9495C59A2C45771500D74494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9495C59C2C45771500D74494 /* DIY_Liquid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DIY_Liquid.entitlements; sourceTree = "<group>"; };
+		9495C59E2C45771500D74494 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9495C5A42C45771500D74494 /* DIY LiquidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DIY LiquidTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9495C5A82C45771500D74494 /* DIY_LiquidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIY_LiquidTests.swift; sourceTree = "<group>"; };
+		9495C5AE2C45771500D74494 /* DIY LiquidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DIY LiquidUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9495C5B22C45771500D74494 /* DIY_LiquidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIY_LiquidUITests.swift; sourceTree = "<group>"; };
+		9495C5B42C45771500D74494 /* DIY_LiquidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIY_LiquidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9495C58B2C45771300D74494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9495C5A12C45771500D74494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9495C5AB2C45771500D74494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9495C5852C45771300D74494 = {
+			isa = PBXGroup;
+			children = (
+				9495C5902C45771300D74494 /* DIY Liquid */,
+				9495C5A72C45771500D74494 /* DIY LiquidTests */,
+				9495C5B12C45771500D74494 /* DIY LiquidUITests */,
+				9495C58F2C45771300D74494 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9495C58F2C45771300D74494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9495C58E2C45771300D74494 /* DIY Liquid.app */,
+				9495C5A42C45771500D74494 /* DIY LiquidTests.xctest */,
+				9495C5AE2C45771500D74494 /* DIY LiquidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9495C5902C45771300D74494 /* DIY Liquid */ = {
+			isa = PBXGroup;
+			children = (
+				9495C5912C45771300D74494 /* DIY_LiquidApp.swift */,
+				9495C5932C45771300D74494 /* Persistence.swift */,
+				9495C5982C45771300D74494 /* ContentView.swift */,
+				9495C59A2C45771500D74494 /* Assets.xcassets */,
+				9495C59C2C45771500D74494 /* DIY_Liquid.entitlements */,
+				9495C5952C45771300D74494 /* DIY_Liquid.xcdatamodeld */,
+				9495C59D2C45771500D74494 /* Preview Content */,
+			);
+			path = "DIY Liquid";
+			sourceTree = "<group>";
+		};
+		9495C59D2C45771500D74494 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9495C59E2C45771500D74494 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9495C5A72C45771500D74494 /* DIY LiquidTests */ = {
+			isa = PBXGroup;
+			children = (
+				9495C5A82C45771500D74494 /* DIY_LiquidTests.swift */,
+			);
+			path = "DIY LiquidTests";
+			sourceTree = "<group>";
+		};
+		9495C5B12C45771500D74494 /* DIY LiquidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9495C5B22C45771500D74494 /* DIY_LiquidUITests.swift */,
+				9495C5B42C45771500D74494 /* DIY_LiquidUITestsLaunchTests.swift */,
+			);
+			path = "DIY LiquidUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9495C58D2C45771300D74494 /* DIY Liquid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9495C5B82C45771500D74494 /* Build configuration list for PBXNativeTarget "DIY Liquid" */;
+			buildPhases = (
+				9495C58A2C45771300D74494 /* Sources */,
+				9495C58B2C45771300D74494 /* Frameworks */,
+				9495C58C2C45771300D74494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DIY Liquid";
+			productName = "DIY Liquid";
+			productReference = 9495C58E2C45771300D74494 /* DIY Liquid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9495C5A32C45771500D74494 /* DIY LiquidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9495C5BB2C45771500D74494 /* Build configuration list for PBXNativeTarget "DIY LiquidTests" */;
+			buildPhases = (
+				9495C5A02C45771500D74494 /* Sources */,
+				9495C5A12C45771500D74494 /* Frameworks */,
+				9495C5A22C45771500D74494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9495C5A62C45771500D74494 /* PBXTargetDependency */,
+			);
+			name = "DIY LiquidTests";
+			productName = "DIY LiquidTests";
+			productReference = 9495C5A42C45771500D74494 /* DIY LiquidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9495C5AD2C45771500D74494 /* DIY LiquidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9495C5BE2C45771500D74494 /* Build configuration list for PBXNativeTarget "DIY LiquidUITests" */;
+			buildPhases = (
+				9495C5AA2C45771500D74494 /* Sources */,
+				9495C5AB2C45771500D74494 /* Frameworks */,
+				9495C5AC2C45771500D74494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9495C5B02C45771500D74494 /* PBXTargetDependency */,
+			);
+			name = "DIY LiquidUITests";
+			productName = "DIY LiquidUITests";
+			productReference = 9495C5AE2C45771500D74494 /* DIY LiquidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9495C5862C45771300D74494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9495C58D2C45771300D74494 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9495C5A32C45771500D74494 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9495C58D2C45771300D74494;
+					};
+					9495C5AD2C45771500D74494 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9495C58D2C45771300D74494;
+					};
+				};
+			};
+			buildConfigurationList = 9495C5892C45771300D74494 /* Build configuration list for PBXProject "DIY Liquid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9495C5852C45771300D74494;
+			productRefGroup = 9495C58F2C45771300D74494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9495C58D2C45771300D74494 /* DIY Liquid */,
+				9495C5A32C45771500D74494 /* DIY LiquidTests */,
+				9495C5AD2C45771500D74494 /* DIY LiquidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9495C58C2C45771300D74494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9495C59F2C45771500D74494 /* Preview Assets.xcassets in Resources */,
+				9495C59B2C45771500D74494 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9495C5A22C45771500D74494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9495C5AC2C45771500D74494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9495C58A2C45771300D74494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9495C5972C45771300D74494 /* DIY_Liquid.xcdatamodeld in Sources */,
+				9495C5922C45771300D74494 /* DIY_LiquidApp.swift in Sources */,
+				9495C5992C45771300D74494 /* ContentView.swift in Sources */,
+				9495C5942C45771300D74494 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9495C5A02C45771500D74494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9495C5A92C45771500D74494 /* DIY_LiquidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9495C5AA2C45771500D74494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9495C5B32C45771500D74494 /* DIY_LiquidUITests.swift in Sources */,
+				9495C5B52C45771500D74494 /* DIY_LiquidUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9495C5A62C45771500D74494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9495C58D2C45771300D74494 /* DIY Liquid */;
+			targetProxy = 9495C5A52C45771500D74494 /* PBXContainerItemProxy */;
+		};
+		9495C5B02C45771500D74494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9495C58D2C45771300D74494 /* DIY Liquid */;
+			targetProxy = 9495C5AF2C45771500D74494 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9495C5B62C45771500D74494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9495C5B72C45771500D74494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9495C5B92C45771500D74494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DIY Liquid/DIY_Liquid.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DIY Liquid/Preview Content\"";
+				DEVELOPMENT_TEAM = L3MDR7F35D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fabbac13.DIY-Liquid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9495C5BA2C45771500D74494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DIY Liquid/DIY_Liquid.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DIY Liquid/Preview Content\"";
+				DEVELOPMENT_TEAM = L3MDR7F35D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fabbac13.DIY-Liquid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9495C5BC2C45771500D74494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3MDR7F35D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fabbac13.DIY-LiquidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DIY Liquid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DIY Liquid";
+			};
+			name = Debug;
+		};
+		9495C5BD2C45771500D74494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3MDR7F35D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fabbac13.DIY-LiquidTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DIY Liquid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DIY Liquid";
+			};
+			name = Release;
+		};
+		9495C5BF2C45771500D74494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3MDR7F35D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fabbac13.DIY-LiquidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DIY Liquid";
+			};
+			name = Debug;
+		};
+		9495C5C02C45771500D74494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3MDR7F35D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fabbac13.DIY-LiquidUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DIY Liquid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9495C5892C45771300D74494 /* Build configuration list for PBXProject "DIY Liquid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9495C5B62C45771500D74494 /* Debug */,
+				9495C5B72C45771500D74494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9495C5B82C45771500D74494 /* Build configuration list for PBXNativeTarget "DIY Liquid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9495C5B92C45771500D74494 /* Debug */,
+				9495C5BA2C45771500D74494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9495C5BB2C45771500D74494 /* Build configuration list for PBXNativeTarget "DIY LiquidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9495C5BC2C45771500D74494 /* Debug */,
+				9495C5BD2C45771500D74494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9495C5BE2C45771500D74494 /* Build configuration list for PBXNativeTarget "DIY LiquidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9495C5BF2C45771500D74494 /* Debug */,
+				9495C5C02C45771500D74494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9495C5952C45771300D74494 /* DIY_Liquid.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9495C5962C45771300D74494 /* DIY_Liquid.xcdatamodel */,
+			);
+			currentVersion = 9495C5962C45771300D74494 /* DIY_Liquid.xcdatamodel */;
+			path = DIY_Liquid.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9495C5862C45771300D74494 /* Project object */;
+}
